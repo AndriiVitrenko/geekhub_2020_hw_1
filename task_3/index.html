@@ -125,13 +125,13 @@
 
     <script>
         $(window).ready(function() {
-            let height = $('.footer__container:nth-child(2)').outerHeight()
+            const height = $('.footer__container:nth-child(2)').outerHeight()
 
             $('.footer__container:nth-child(1)').css('height', height)
         })
 
         $(window).resize(function() {
-            let height = $('.footer__container:nth-child(2)').outerHeight()
+            const height = $('.footer__container:nth-child(2)').outerHeight()
 
             $('.footer__container:nth-child(1)').css('height', height)
         })
